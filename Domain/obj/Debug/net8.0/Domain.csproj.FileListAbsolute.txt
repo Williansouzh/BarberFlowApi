@@ -1,0 +1,12 @@
+/home/willian/projects/dotnet/BarberFlowApi/Domain/bin/Debug/net8.0/Domain.deps.json
+/home/willian/projects/dotnet/BarberFlowApi/Domain/bin/Debug/net8.0/Domain.dll
+/home/willian/projects/dotnet/BarberFlowApi/Domain/bin/Debug/net8.0/Domain.pdb
+/home/willian/projects/dotnet/BarberFlowApi/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/willian/projects/dotnet/BarberFlowApi/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/home/willian/projects/dotnet/BarberFlowApi/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/home/willian/projects/dotnet/BarberFlowApi/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/home/willian/projects/dotnet/BarberFlowApi/Domain/obj/Debug/net8.0/Domain.sourcelink.json
+/home/willian/projects/dotnet/BarberFlowApi/Domain/obj/Debug/net8.0/Domain.dll
+/home/willian/projects/dotnet/BarberFlowApi/Domain/obj/Debug/net8.0/refint/Domain.dll
+/home/willian/projects/dotnet/BarberFlowApi/Domain/obj/Debug/net8.0/Domain.pdb
+/home/willian/projects/dotnet/BarberFlowApi/Domain/obj/Debug/net8.0/ref/Domain.dll

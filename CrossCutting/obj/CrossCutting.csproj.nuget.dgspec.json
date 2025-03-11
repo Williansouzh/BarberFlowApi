@@ -1,0 +1,244 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/willian/projects/dotnet/BarberFlowApi/CrossCutting/CrossCutting.csproj": {}
+  },
+  "projects": {
+    "/home/willian/projects/dotnet/BarberFlowApi/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/willian/projects/dotnet/BarberFlowApi/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/home/willian/projects/dotnet/BarberFlowApi/Application/Application.csproj",
+        "packagesPath": "/home/willian/.nuget/packages/",
+        "outputPath": "/home/willian/projects/dotnet/BarberFlowApi/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/willian/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/willian/projects/dotnet/BarberFlowApi/Domain/Domain.csproj": {
+                "projectPath": "/home/willian/projects/dotnet/BarberFlowApi/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/willian/projects/dotnet/BarberFlowApi/CrossCutting/CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/willian/projects/dotnet/BarberFlowApi/CrossCutting/CrossCutting.csproj",
+        "projectName": "CrossCutting",
+        "projectPath": "/home/willian/projects/dotnet/BarberFlowApi/CrossCutting/CrossCutting.csproj",
+        "packagesPath": "/home/willian/.nuget/packages/",
+        "outputPath": "/home/willian/projects/dotnet/BarberFlowApi/CrossCutting/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/willian/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/willian/projects/dotnet/BarberFlowApi/Application/Application.csproj": {
+                "projectPath": "/home/willian/projects/dotnet/BarberFlowApi/Application/Application.csproj"
+              },
+              "/home/willian/projects/dotnet/BarberFlowApi/Domain/Domain.csproj": {
+                "projectPath": "/home/willian/projects/dotnet/BarberFlowApi/Domain/Domain.csproj"
+              },
+              "/home/willian/projects/dotnet/BarberFlowApi/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/willian/projects/dotnet/BarberFlowApi/Infrastructure/Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/willian/projects/dotnet/BarberFlowApi/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/willian/projects/dotnet/BarberFlowApi/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/willian/projects/dotnet/BarberFlowApi/Domain/Domain.csproj",
+        "packagesPath": "/home/willian/.nuget/packages/",
+        "outputPath": "/home/willian/projects/dotnet/BarberFlowApi/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/willian/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/willian/projects/dotnet/BarberFlowApi/Infrastructure/Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/willian/projects/dotnet/BarberFlowApi/Infrastructure/Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "/home/willian/projects/dotnet/BarberFlowApi/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/willian/.nuget/packages/",
+        "outputPath": "/home/willian/projects/dotnet/BarberFlowApi/Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/willian/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/willian/projects/dotnet/BarberFlowApi/Domain/Domain.csproj": {
+                "projectPath": "/home/willian/projects/dotnet/BarberFlowApi/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0-preview.3.efcore.9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
