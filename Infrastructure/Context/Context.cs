@@ -1,14 +1,22 @@
-namespace BarberShop.Mode
+using Domain.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace Infrastructure.Context
 {
-    public class Barbers
+    public class AppDbContext : DbContext
     {
-        public int Id { get; set; }
-        public string? Name { get; set; }
-        public string? Email { get; set; }
-        public string? Password_hash { get; set; }
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+        {
+        }
 
-        public string? Role { get; set; }
+        public DbSet<Barber>? Produtos { get; set; }
+        public DbSet<Appointment>? Appointments { get; set; }
+        public DbSet<User> Users { get; set; }
 
-        public int? Working_hours { get; set; }
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+        }
     }
+    
 }
